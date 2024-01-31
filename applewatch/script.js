@@ -58,7 +58,6 @@ function trocarTamanho() {
         imagemVisualizacao.classList.add("caixa-pequena")
     } else {
         imagemVisualizacao.classList.remove("caixa-pequena")
-
     }
 }
 
@@ -77,5 +76,4 @@ function trocarCor() {
     id2ImagemMiniatura.src = `./imagens/opcoes-cores/${listaOpcoesCores[corSelecionada].pasta}/imagem-2.jpeg`
     // mudar a cor da imagem de acordo com a opção
     imagemVisualizacao.src = `./imagens/opcoes-cores/${listaOpcoesCores[corSelecionada].pasta}/imagem-${imagemSelecionada}.jpeg`
-
 }
